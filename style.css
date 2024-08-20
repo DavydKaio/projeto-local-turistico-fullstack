@@ -9,12 +9,12 @@
 
 body {
   background-color: #F5F4F0;
+  width: 1120px;
+  margin: 88px auto 48px;
 }
 
 main {
-  width: 1120px;
   box-sizing: border-box;
-  margin: 88px auto 48px;
 }
 
 .headline {
@@ -126,4 +126,14 @@ ul + hr {
 
 .description {
   text-align: center;
+  margin-bottom: 65px;
+}
+
+footer {
+  font-family: "Alice", serif;
+  text-align: center;
+}
+
+footer img {
+  vertical-align: middle;
 }

@@ -1,21 +1,26 @@
-body {
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
   background-color: #F5F4F0;
 }
 
 main {
   width: 1120px;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-  margin: 88px 80px 48px;
+  margin: 88px auto 48px;
 }
 
 .headline {
   font-size: 16px;
   font-weight: bold;
   color: #E1624F;
-  margin-top: 0;
   margin-bottom: 8px;
 }
 
@@ -23,14 +28,15 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   color: #1B1B1B;
-  margin-top: 0;
   margin-bottom: 40px;
 }
 
 .main-image {
-  object-fit: contain;
+  object-fit: cover;
+  height: 660px;
   width: 100%;
   border-radius: 28px;
+  margin-bottom: 24px;
 }
 
 .subtitle {
@@ -38,7 +44,6 @@ h1 {
   font-style: italic;
   text-align: center;
   color: #333333;
-  margin-top: 24px;
   margin-bottom: 40px;
 }
 
@@ -47,6 +52,78 @@ h1 {
 }
 
 p + .divider {
-  margin-top: 0;
   margin-bottom: 64px;
+}
+
+hr + .headline {
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1B1B1B;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 16px;
+  color: #333333;
+}
+
+h2 + p {
+  margin-bottom: 64px;
+}
+
+.content-image {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 4px;
+}
+
+br + p {
+  font-weight: bold;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 48px;
+}
+
+li {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.blue {
+  color: #0C51A7;
+}
+
+.purple {
+  color: #591B98;
+}
+
+.pink {
+  color: #E5245E;
+}
+
+.orange {
+  color: #E95E10;
+}
+
+ul + hr {
+  margin-bottom: 40px;
+}
+
+.description {
+  text-align: center;
 }

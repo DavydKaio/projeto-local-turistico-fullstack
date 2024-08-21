@@ -51,7 +51,7 @@ h1 {
   border: 1px solid #D9D9D9;
 }
 
-p + .divider {
+section + .divider {
   margin-bottom: 64px;
 }
 
@@ -120,7 +120,7 @@ li {
   color: #E95E10;
 }
 
-ul + hr {
+article + .divider {
   margin-bottom: 40px;
 }
 
